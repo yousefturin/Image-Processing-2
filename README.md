@@ -112,7 +112,8 @@ Multiple the Result Image with K constant; where K = 2:
 |0|	6|	2|	4|	4|
 |10|	0|	2|	0|	4|
 |2|	0|	0|	6|	14|
-Add the Result Image the Input Image:
+
+Add the Result Image to the Input Image:
 
 **Output Image g(x,y)**
 |0|	2|	6|	17|	1|
@@ -136,7 +137,9 @@ Add the Result Image the Input Image:
 |1|7|	5|	7	|5|
 |7|	2|	5	|4	|6|
 |2	|1	|0|	6|	9|
+
 **Mask**
+
 |1	|1	|1|
 |---|---|---|
 |1	|-8	|1|
@@ -153,8 +156,9 @@ The result from [∇^2 f(x,y)]:
 |-43|	12|	-8|	11|	-17|
 |-6	|8|	18|	-24|	-56|
 
-Take the result image and subtract it from the input image to get sharper image:
+Take the resulting image and subtract it from the input image to get a sharper image:
 **g(x,y)**
+
 |-10|	0|	14	|45|	-5|
 |---|---|---|---|---|
 |32|	-3|	15	|-2|	3|
@@ -174,13 +178,17 @@ Take the result image and subtract it from the input image to get sharper image:
 |1|7|	5|	7	|5|
 |7|	2|	5	|4	|6|
 |2	|1	|0|	6|	9|
+
 **Mask**
+
 |	|	||
 |---|---|---|
 |	|*||
 |	|	||
+
 By using a median filter, it reduces the noise for the image: 
 **Output Image**
+
 |2|	3|	4|	4|	3|
 |---|---|---|---|---|
 |2|	4|	5|	5|	4|
