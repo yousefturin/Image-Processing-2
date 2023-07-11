@@ -92,7 +92,8 @@ Apply the blur using the mask:
 |3	|4	|4	|5|	3|
 |2	|3	|4	|4|	4|
 |1	|1	|2	|3|	2|
-Subtract The Input Image form the blurred Image:
+
+Subtract The Input Image from the blurred Image:
 
 **Result Image [f(x,y)-f ̅(x,y)]**
 |0|	0|	1|	4|	0|
